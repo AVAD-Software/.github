@@ -1,6 +1,6 @@
 name: 버그 수정
 description: 오류 및 예외 동작 등록
-title: "[버그] "
+title: "[fix] "
 body:
   - type: markdown
     attributes:

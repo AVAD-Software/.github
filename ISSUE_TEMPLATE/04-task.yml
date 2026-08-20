@@ -1,6 +1,6 @@
 name: 일반 작업
 description: 문서·설정·기술 부채·운영 작업 등록
-title: "[작업] "
+title: "[chore] "
 body:
   - type: markdown
     attributes:
