@@ -1,6 +1,6 @@
 name: 개선 작업
 description: 사용성·성능·구조 개선 등록
-title: "[개선] "
+title: "[refactor] "
 body:
   - type: markdown
     attributes:
