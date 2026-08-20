@@ -1,0 +1,45 @@
+name: 일반 작업
+description: 문서·설정·기술 부채·운영 작업 등록
+title: "[작업] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        일반 작업의 목적, 범위 및 완료 조건 중심의 내용 작성
+
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 작업 목적
+      description: 작업이 필요한 이유 작성
+      placeholder: 작업 목적
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: 작업 범위
+      description: 포함 범위와 제외 범위 작성
+      placeholder: 작업 범위
+    validations:
+      required: true
+
+  - type: textarea
+    id: dependency
+    attributes:
+      label: 의존성 및 영향 범위
+      description: 선행 작업, 관련 프로젝트 및 영향 범위 작성
+      placeholder: 의존성 및 영향 범위
+    validations:
+      required: false
+
+  - type: textarea
+    id: done
+    attributes:
+      label: 완료 조건
+      description: 작업 완료를 판단할 수 있는 조건 작성
+      placeholder: |
+        -
+    validations:
+      required: true
